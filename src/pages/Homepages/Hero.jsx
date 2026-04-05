@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import ButtonFill from "./../../common/Button/ButtonFill"; // Adjust path if needed
+import ButtonFill from "../../common/Button/ButtonFill"; // Adjust path if needed
 import { Link } from "react-router-dom";
 
 const slides = [

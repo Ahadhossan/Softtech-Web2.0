@@ -1,6 +1,6 @@
 import React from "react";
-import ComingSoon from "../../common/ComingSoon";
-import ScrollToTopButton from "../../common/ScrollToTopButton";
+import ComingSoon from "../../../common/ComingSoon";
+import ScrollToTopButton from "../../../common/ScrollToTopButton";
 
 const OpenPositions = () => {
   return (

@@ -1,17 +1,19 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import Home from "./components/Home/Home";
+import Home from "./components/HomeComponent/Home";
 import Footer from "./common/Footer/Footer";
 import Navbar from "./Components/Header/Navbar";
-import About from "./components/About/About";
-import Success from "./components/Success/Success";
-import Work from "./components/Work/Work";
-import Blog from "./components/Blog/Blog";
-import FreshGrads from "./components/FreshGrads/FreshGrads";
-import Softtech from "./components/Softtech/Softtech";
-import OpenPositions from "./components/OpenPositions/OpenPositions";
+import About from "./components/AboutComponent/About/About";
+import Success from "./components/AboutComponent/Success/Success";
+import Work from "./components/AboutComponent/Work/Work";
+import Blog from "./components/AboutComponent/Blog/Blog";
+import FreshGrads from "./components/AboutComponent/FreshGrads/FreshGrads";
+import Softtech from "./components/AboutComponent/Softtech/Softtech";
+import OpenPositions from "./components/AboutComponent/OpenPositions/OpenPositions";
 import Contact from "./components/Contact/Contact";
+import Industries from "./components/IndustriesComponent/Industries";
+import OurProduct from "./components/OurProductComponent/OurProduct";
 
 function App() {
   return (
@@ -30,6 +32,12 @@ function App() {
         <Route path="/softtech" element={<Softtech />} />
         <Route path="/fresh" element={<FreshGrads />} />
         <Route path="/position" element={<OpenPositions />} />
+
+        {/* industries */}
+        <Route path="/industrie" element={<Industries />} />
+
+        {/* OurProduct */}
+        <Route path="/product" element={<OurProduct />} />
 
         {/* Contact */}
         <Route path="/contact" element={<Contact />} />

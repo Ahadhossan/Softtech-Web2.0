@@ -3,9 +3,9 @@ import React from "react";
 import { ArrowRight } from "lucide-react";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import ScrollToTopButton from "./../../common/ScrollToTopButton";
-import ButtonFill from "../../common/Button/ButtonFill";
-import { blogs } from "../../Data/Blog";
+import ScrollToTopButton from "../../../common/ScrollToTopButton";
+import ButtonFill from "../../../common/Button/ButtonFill";
+import { blogs } from "../../../Data/Blog";
 
 const Blog = () => {
   // hero section

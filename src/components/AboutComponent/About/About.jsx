@@ -1,13 +1,13 @@
 import React from "react";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import ContactForm from "../../common/ContactForm/ContactForm";
-import Newsletter from "../../common/Newsletter";
-import ScrollToTopButton from "../../common/ScrollToTopButton";
-import HeroSection from "../../pages/AboutUsPage/HeroSection";
-import AboutUs from "../../pages/AboutUsPage/AboutUs";
-import Choice from "../../pages/AboutUsPage/Choice";
-import Technology from "../../pages/AboutUsPage/Technology";
+import ContactForm from "../../../common/ContactForm/ContactForm";
+import Newsletter from "../../../common/Newsletter";
+import ScrollToTopButton from "../../../common/ScrollToTopButton";
+import HeroSection from "../../../pages/AboutPage/AboutUsPage/HeroSection";
+import AboutUs from "../../../pages/AboutPage/AboutUsPage/AboutUs";
+import Choice from "../../../pages/AboutPage/AboutUsPage/Choice";
+import Technology from "../../../pages/AboutPage/AboutUsPage/Technology";
 
 const About = () => {
   return (

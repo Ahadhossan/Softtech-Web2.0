@@ -2,10 +2,10 @@ import React from "react";
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import ContactForm from "../../common/ContactForm/ContactForm";
-import Newsletter from "../../common/Newsletter";
-import ScrollToTopButton from "../../common/ScrollToTopButton";
-import { industries } from "../../Data/Work";
+import ContactForm from "../../../common/ContactForm/ContactForm";
+import Newsletter from "../../../common/Newsletter";
+import ScrollToTopButton from "../../../common/ScrollToTopButton";
+import { industries } from "../../../Data/Work";
 
 const Work = () => {
   // hero section

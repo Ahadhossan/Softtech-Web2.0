@@ -4,7 +4,7 @@ import { CircleCheckBig } from "lucide-react";
 import { useRef } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion, useInView } from "framer-motion";
-import ScrollToTopButton from "../../common/ScrollToTopButton";
+import ScrollToTopButton from "../../../common/ScrollToTopButton";
 
 const Softtech = () => {
   // hero section

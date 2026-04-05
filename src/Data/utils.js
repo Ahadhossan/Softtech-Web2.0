@@ -42,11 +42,6 @@ export const Menus = [{
                     href: "#",
                     icon: "https://i.ibb.co/2YLRqVTC/youtube.png",
                 },
-                {
-                    label: "GitHub",
-                    href: "#",
-                    icon: "https://i.ibb.co/zW3BtpDV/github.png",
-                },
             ],
         ],
     },

@@ -2,15 +2,14 @@ import React from "react";
 import ComingSoon from "../../common/ComingSoon";
 import ScrollToTopButton from "../../common/ScrollToTopButton";
 
-const FreshGrads = () => {
+const OurProduct = () => {
   return (
     <>
-      <ComingSoon title={"Fresh Grads"} />
-
+      <ComingSoon title={"Our Products"} />
       {/* Scrolltop */}
       <ScrollToTopButton />
     </>
   );
 };
 
-export default FreshGrads;
+export default OurProduct;
