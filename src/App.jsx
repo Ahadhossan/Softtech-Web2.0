@@ -11,6 +11,7 @@ import Blog from "./components/Blog/Blog";
 import FreshGrads from "./components/FreshGrads/FreshGrads";
 import Softtech from "./components/Softtech/Softtech";
 import OpenPositions from "./components/OpenPositions/OpenPositions";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         <Route path="/softtech" element={<Softtech />} />
         <Route path="/fresh" element={<FreshGrads />} />
         <Route path="/position" element={<OpenPositions />} />
+
+        {/* Contact */}
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
       <Footer />

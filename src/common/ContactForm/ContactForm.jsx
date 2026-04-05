@@ -215,48 +215,6 @@ const ContactForm = () => {
               <p className="text-red-500 text-sm">{errors.number}</p>
             )}
           </div>
-          {/* <PhoneInput
-            country={"bd"}
-            value={formData.number}
-            onChange={(phone) =>
-              setFormData((prev) => ({ ...prev, number: phone }))
-            }
-            containerStyle={{
-              width: "100%",
-            }}
-            inputStyle={{
-              width: "100%",
-              height: "48px",
-              borderRadius: "10px",
-              border: "2px solid #1E5470",
-              paddingLeft: "60px",
-              color: "#000",
-              fontSize: "15px",
-              backgroundColor: "#F9FAFB",
-            }}
-            buttonStyle={{
-              border: "2px solid #1E5470",
-              borderRight: "1px solid #CBD5E0",
-              backgroundColor: "#EDF2F7",
-            }}
-            dropdownStyle={{
-              borderRadius: "10px",
-              border: "1px solid #CBD5E0",
-              color: "#000",
-              boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
-            }}
-            searchStyle={{
-              width: "90%",
-              margin: "10px auto",
-              padding: "8px",
-              borderRadius: "6px",
-              border: "1px solid #CBD5E0",
-            }}
-          /> */}
-          {/* 
-          {errors.number && (
-            <p className="text-red-500 text-sm mt-1">{errors.number}</p>
-          )} */}
 
           {/* Service */}
           <div
