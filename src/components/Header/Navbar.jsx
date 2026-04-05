@@ -11,7 +11,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center gap-x-3">
           <Link
-            href="/home"
+            to="/home"
             className="flex items-center text-xl font-extrabold tracking-wide text-[#1E5470] hover:text-[#031A09] transition-colors"
           >
             <img
