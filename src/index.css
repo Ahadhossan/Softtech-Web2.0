@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+body {
+    @apply bg-[#fff] text-gray-300 font-sans;
+}
+
+@layer utilities {
+    .flex-center {
+        @apply flex items-center;
+    }
+    .flex-center-between {
+        @apply flex items-center justify-between;
+    }
+}
+
+.hero-bg {
+    background: linear-gradient( rgb(8, 8, 8, 0.9), rgba(24, 24, 24, 0.9), rgb(45, 47, 48, 0.0)), url('https://i.ibb.co/fVCwfsXs/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-bg {
+    background: linear-gradient( rgb(8, 8, 8, 0.9), rgba(24, 24, 24, 0.9), rgb(45, 47, 48, 0.0)), url('https://i.ibb.co/dwkMp5YL/contact-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
