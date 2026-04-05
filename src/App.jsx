@@ -8,6 +8,9 @@ import About from "./components/About/About";
 import Success from "./components/Success/Success";
 import Work from "./components/Work/Work";
 import Blog from "./components/Blog/Blog";
+import FreshGrads from "./components/FreshGrads/FreshGrads";
+import Softtech from "./components/Softtech/Softtech";
+import OpenPositions from "./components/OpenPositions/OpenPositions";
 
 function App() {
   return (
@@ -18,10 +21,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        {/* About */}
         <Route path="/about" element={<About />} />
         <Route path="/success" element={<Success />} />
         <Route path="/work" element={<Work />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/softtech" element={<Softtech />} />
+        <Route path="/fresh" element={<FreshGrads />} />
+        <Route path="/position" element={<OpenPositions />} />
       </Routes>
 
       <Footer />
